@@ -1,0 +1,1 @@
+G.current_frame++;

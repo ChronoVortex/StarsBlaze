@@ -1,0 +1,1 @@
+G.player = noone;
