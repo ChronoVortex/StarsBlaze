@@ -1,9 +1,6 @@
 {
   "FolderOrderSettings": [
-    {"name":"Animation Curves","order":10,"path":"folders/Animation Curves.yy",},
-    {"name":"Extensions","order":12,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
-    {"name":"Notes","order":11,"path":"folders/Notes.yy",},
     {"name":"Objects","order":7,"path":"folders/Objects.yy",},
     {"name":"Game","order":1,"path":"folders/Objects/Game.yy",},
     {"name":"Menu","order":2,"path":"folders/Objects/Menu.yy",},
@@ -23,15 +20,12 @@
     {"name":"Layers","order":5,"path":"folders/Scripts/Layers.yy",},
     {"name":"Math","order":2,"path":"folders/Scripts/Math.yy",},
     {"name":"Shaders","order":6,"path":"folders/Scripts/Shaders.yy",},
-    {"name":"Sequences","order":9,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":17,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Music","order":2,"path":"folders/Sounds/Music.yy",},
     {"name":"Fluff","order":12,"path":"folders/Sprites/Fluff.yy",},
     {"name":"Gameplay","order":13,"path":"folders/Sprites/Gameplay.yy",},
     {"name":"Structs","order":16,"path":"folders/Structs.yy",},
-    {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
-    {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_option_exit","order":4,"path":"objects/obj_option_exit/obj_option_exit.yy",},
