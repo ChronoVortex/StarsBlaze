@@ -3,6 +3,7 @@
 SINGLETON
 
 G.manager = id;
+G.gamepad = instance_create_layer(x, y, layer, sys_gamepad);
 G.game = noone;
 G.player = noone;
 G.layer_alpha = 1;

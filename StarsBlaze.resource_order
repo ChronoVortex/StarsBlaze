@@ -85,6 +85,7 @@
     {"name":"pth_ease_linear","order":13,"path":"paths/pth_ease_linear/pth_ease_linear.yy",},
     {"name":"snd_explode_player","order":5,"path":"sounds/snd_explode_player/snd_explode_player.yy",},
     {"name":"pth_ease_in_out_hiper","order":5,"path":"paths/pth_ease_in_out_hiper/pth_ease_in_out_hiper.yy",},
+    {"name":"sys_gamepad","order":6,"path":"objects/sys_gamepad/sys_gamepad.yy",},
     {"name":"pth_2_enemy_form_1","order":2,"path":"paths/pth_2_enemy_form_1/pth_2_enemy_form_1.yy",},
     {"name":"pth_ease_out_back","order":14,"path":"paths/pth_ease_out_back/pth_ease_out_back.yy",},
     {"name":"spr_cruiser_node_bomb","order":8,"path":"sprites/spr_cruiser_node_bomb/spr_cruiser_node_bomb.yy",},

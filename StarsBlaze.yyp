@@ -113,6 +113,7 @@
     {"id":{"name":"pth_ease_linear","path":"paths/pth_ease_linear/pth_ease_linear.yy",},},
     {"id":{"name":"snd_explode_player","path":"sounds/snd_explode_player/snd_explode_player.yy",},},
     {"id":{"name":"pth_ease_in_out_hiper","path":"paths/pth_ease_in_out_hiper/pth_ease_in_out_hiper.yy",},},
+    {"id":{"name":"sys_gamepad","path":"objects/sys_gamepad/sys_gamepad.yy",},},
     {"id":{"name":"pth_2_enemy_form_1","path":"paths/pth_2_enemy_form_1/pth_2_enemy_form_1.yy",},},
     {"id":{"name":"pth_ease_out_back","path":"paths/pth_ease_out_back/pth_ease_out_back.yy",},},
     {"id":{"name":"spr_cruiser_node_bomb","path":"sprites/spr_cruiser_node_bomb/spr_cruiser_node_bomb.yy",},},
