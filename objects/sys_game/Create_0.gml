@@ -176,17 +176,17 @@ enemy_formations_easy_2 = [
     ]
 ];
 #endregion
-#region Formation medium 1
-enemy_formations_medium_1 = [
+#region Formation easy elite 1
+enemy_formations_easy_elite_1 = [
     [
         {
             path: pth_1_enemy_form_4,
-            type: obj_mimbari_2,
+            type: obj_mimbari_2_elite,
             inst: noone
         },
         {
             path: pth_2_enemy_form_4,
-            type: obj_mimbari_2,
+            type: obj_mimbari_2_elite,
             inst: noone
         }
     ],
@@ -243,17 +243,17 @@ enemy_formations_medium_1 = [
     ]
 ];
 #endregion
-#region Formation medium 2
-enemy_formations_medium_2 = [
+#region Formation easy elite 2
+enemy_formations_easy_elite_2 = [
     [
         {
             path: pth_1_enemy_form_4,
-            type: obj_mimbari_2,
+            type: obj_mimbari_2_elite,
             inst: noone
         },
         {
             path: pth_2_enemy_form_4,
-            type: obj_mimbari_2,
+            type: obj_mimbari_2_elite,
             inst: noone
         }
     ],
@@ -310,11 +310,367 @@ enemy_formations_medium_2 = [
     ]
 ];
 #endregion
+#region Formation medium 1
+enemy_formations_medium_1 = [
+    [
+        {
+            path: pth_1_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_4_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_5_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_6_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ]
+];
+#endregion
+#region Formation medium 2
+enemy_formations_medium_2 = [
+    [
+        {
+            path: pth_1_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ]
+];
+#endregion
+#region Formation medium elite 1
+enemy_formations_medium_elite_1 = [
+    [
+        {
+            path: pth_1_enemy_form_4,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_4,
+            type: obj_mimbari_3,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_4_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_5_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_6_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ]
+];
+#endregion
+#region Formation medium elite 2
+enemy_formations_medium_elite_2 = [
+    [
+        {
+            path: pth_1_enemy_form_4,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_4,
+            type: obj_mimbari_3,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_2,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_1,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_3,
+            type: obj_mimbari_1,
+            inst: noone
+        }
+    ]
+];
+#endregion
+#region Formation hard 1
+enemy_formations_hard_1 = [
+    [
+        {
+            path: pth_1_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_1,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_2,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_4_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_5_enemy_form_3,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_6_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        }
+    ]
+];
+#endregion
+#region Formation hard 2
+enemy_formations_hard_2 = [
+    [
+        {
+            path: pth_1_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_2,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_2,
+            type: obj_mimbari_2,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_1,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_1,
+            type: obj_mimbari_2,
+            inst: noone
+        }
+    ],
+    [
+        {
+            path: pth_1_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        },
+        {
+            path: pth_2_enemy_form_3,
+            type: obj_mimbari_3,
+            inst: noone
+        },
+        {
+            path: pth_3_enemy_form_3,
+            type: obj_mimbari_2,
+            inst: noone
+        }
+    ]
+];
+#endregion
 enemy_formations_current = choose(enemy_formations_easy_1, enemy_formations_easy_2);
 enemy_count_wave = 0;
 for (var i = 0; i < array_length(enemy_formations_current); ++i)
     enemy_count_wave += array_length(enemy_formations_current[i]);
-enemy_elite_interval = 5; // How many rounds between higher difficulty waves
+enemy_elite_interval = 5; // How many rounds between elite waves
+enemy_medium_theshhold = 2*enemy_elite_interval; // How many rounds until medium difficulty waves
+enemy_hard_theshhold = 4*enemy_elite_interval; // How many rounds until hard difficulty waves
 
 cruiser_timer_min = 900;
 cruiser_timer_min = 1200;

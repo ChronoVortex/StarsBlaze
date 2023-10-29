@@ -53,10 +53,20 @@ case GAME_STATE.PLAYING:
             if (instance_exists(obj_enemy)) { // Make enemies attack the player
                 // TODO: make enemies assault the player
             } else { // No enemies left, start spawning them again
-                if (round_current % enemy_elite_interval == enemy_elite_interval - 1) {
-                    formations_set(enemy_formations_medium_1, enemy_formations_medium_1);
+                if (round_current >= enemy_hard_theshhold) {
+                    formations_set(enemy_formations_hard_1, enemy_formations_hard_2);
+                } else if (round_current >= enemy_medium_theshhold) {
+                    if (round_current % enemy_elite_interval == enemy_elite_interval - 1) {
+                        formations_set(enemy_formations_medium_elite_1, enemy_formations_medium_elite_1);
+                    } else {
+                        formations_set(enemy_formations_medium_1, enemy_formations_medium_2);
+                    }
                 } else {
-                    formations_set(enemy_formations_easy_1, enemy_formations_easy_2);
+                    if (round_current % enemy_elite_interval == enemy_elite_interval - 1) {
+                        formations_set(enemy_formations_easy_elite_1, enemy_formations_easy_elite_1);
+                    } else {
+                        formations_set(enemy_formations_easy_1, enemy_formations_easy_2);
+                    }
                 }
                 state_play = PLAY_STATE.ARRIVE;
                 round_current++;
